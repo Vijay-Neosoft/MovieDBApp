@@ -69,6 +69,8 @@ extension MovieListViewController:UITableViewDelegate {
         
         if let movieDetails = listMovieViewModel.movieList?.results?[indexPath.row]{
             self.navigateToDetailsVC(movieDetails: movieDetails)
+            
+            
         }
     }
     
